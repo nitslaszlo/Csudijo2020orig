@@ -5,6 +5,15 @@ nav {
 #fejlec {
     height: 100vh;
     min-height: 500px;
+    /* Web 5. feladat:
+    A fejlec azonosítókijelölő bővítésével módosítsaa fejléc megjelenését! Állítsa be háttérképnek 
+    a kepek/etterem.jpg képet! A háttérkép ismétlődés nélkül, teljes mértékben fedje le az elemet úgy,
+    hogy a kép teljes egészében látszódjon! A szöveg fehér színnel jelenjen meg! */
+    background-image: url('kepek/etterem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* Web 5. feladat vége */
 }
 
 h1 {
