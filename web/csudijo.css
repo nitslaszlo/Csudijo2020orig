@@ -57,3 +57,13 @@ html, body {
     line-height: 1.8;
 }
 /* Web 3. feladat vége */
+
+/* Web 6. feladat CSS-rész:
+A „Fejlécszöveg” feliratot cserélje ki az 1-es szintű címsorban szereplő „Csudijó Étterem” címre,
+és az ezt követő „Ahol az ízek életre kelnek” szövegű motto osztályba sorolt bekezdésre!
+A motto osztálykijelölő létrehozásával formázza a bekezdést úgy, hogy a betűmérete legyen fele az
+egyes szintű címsorhoz beállított betűméretnek! */
+.motto {
+    font-size: 3em;
+}
+/* Web 3. feladat vége */
