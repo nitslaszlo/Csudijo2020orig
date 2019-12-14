@@ -67,3 +67,15 @@ egyes szintű címsorhoz beállított betűméretnek! */
     font-size: 3em;
 }
 /* Web 3. feladat vége */
+
+/* Web 7. feladat CSS-rész:
+Szúrja be a kepek/csicseri.jpg képet a „Rólunk” szekcióban a bekezdés alá!
+Ha a kép fölé visszük az egeret, vagy akép valamiért nem jeleníthető meg,
+akkor mindkét esetben a „Csicseri patak”  szöveg  jelenjen meg!
+Formázza úgy a képeta csudijo.css fájlban létrehozott új  bejegyzéssel,
+hogy maximális szélessége ne haladja meg a szülő elem szélességét,
+de ez a beállítás csak a rolunk tagkijelölőjű szekcióban található képekre vonatkozzon! */
+#rolunk img {
+    max-width: 100%;
+}
+/* Web 7. feladat vége */
