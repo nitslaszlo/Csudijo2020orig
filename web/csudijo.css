@@ -41,3 +41,10 @@ a:active {
 .szurke-hatter {
     background-color: rgb(236, 236, 236);
 }
+
+/* Web 3. feladat:
+Az egész dokumentumra vonatkozóan állítsa be, hogy a sormagasság 1,8 értékű legyen. */
+html, body {
+    line-height: 1.8;
+}
+/* Web 3. feladat vége */
