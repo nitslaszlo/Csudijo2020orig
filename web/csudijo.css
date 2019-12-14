@@ -79,3 +79,13 @@ de ez a beállítás csak a rolunk tagkijelölőjű szekcióban található kép
     max-width: 100%;
 }
 /* Web 7. feladat vége */
+
+/* Web 8. feladat
+Állítsa be a dokumentum bekezdéseiben a betűvastagságot!
+Állapítsa meg böngészőjének fejlesztői eszköze segítségével, hogy
+mennyi az aktuális vastagság, és állítson be ennél 100 egységgel kisebb értéket
+új elemszelektor létrehozásával! */
+p {
+    font-weight: 300;
+}
+/* Web 8. feladat vége */
