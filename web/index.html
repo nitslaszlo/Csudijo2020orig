@@ -99,36 +99,54 @@
             ott használjon keretet(div)! Formázza az egyes elemeket az ábrán megadott
             Bootstrap osztálykijelölőkkel!
             A kártyákat a kartya.txt állományban megadott tartalommal alakítsa ki! -->
-            <div class="card ">
-                <img class="card-img-top" src="kepek/etlap1.jpg" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">TEJSZÍNES-MUSTÁROS CSIRKE ALMÁVAL</h4>
-                        <p class="card-text">A csirkét vajon megpirítjuk, sóval és borssal ízesítjük. Hozzáadjuk a megtisztított hagymát, a feldarabolt zellert, és néhány percig együtt pirítjuk, majd felöntjük a borral és az alaplével. A kimagozott, gerezdekre vágott almákat megpirítjuk. Tejszínes
-                        kukoricalisztet, mustárt és a tárkonyt keverve a pecsenyeléhez mártást készítünk. A hús-, a zöldség- és az alma darabokat beleforgatjuk a mártásba, majd forrón, friss kenyérrel kínáljuk.<p>
+
+            <!-- Web 9. feladat
+            A kártyák számára hozzon létre reszponzív viselkedést biztosító rácsot!
+            Közepes és nagy kijelző méret esetén két sorban, soronként két-két kártyát,
+            míg kicsi és extra kicsi kijelzőjű mobil  eszközök  esetén  négy  sorban,
+            soronként  egy-egy  kártyát  jelenítsen  meg!
+            A megjelenítések közötti váltás a Bootstrap 4 rács alapértelmezett 768 px-es töréspontján történjen. -->
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card ">
+                        <img class="card-img-top" src="kepek/etlap1.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">TEJSZÍNES-MUSTÁROS CSIRKE ALMÁVAL</h4>
+                                <p class="card-text">A csirkét vajon megpirítjuk, sóval és borssal ízesítjük. Hozzáadjuk a megtisztított hagymát, a feldarabolt zellert, és néhány percig együtt pirítjuk, majd felöntjük a borral és az alaplével. A kimagozott, gerezdekre vágott almákat megpirítjuk. Tejszínes
+                                kukoricalisztet, mustárt és a tárkonyt keverve a pecsenyeléhez mártást készítünk. A hús-, a zöldség- és az alma darabokat beleforgatjuk a mártásba, majd forrón, friss kenyérrel kínáljuk.<p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="kepek/etlap2.jpg" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">LECSÓ KOLBÁSZCSIPSSZEL</h4>
-                        <p class="card-text">A hajszálvékonyra szeletelt kolbászt forró serpenyőben ropogósra sütjük. Kolbászzsíron megfonnyasztjuk az apróra vágott vöröshagymát, majd megszórjuk és elkeverjük a pirospaprikával. Feldarabolt paprikát és paradicsomot adunk hozzá. Megsózzuk, megborsozzuk
-                        ízlés szerint. A frissen elkészült lecsót a ropogós kolbászcsipsszel megszórva tálaljuk, friss kenyeret és főtt rizst kínálunk mellé.</p>
+                <div  class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="kepek/etlap2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">LECSÓ KOLBÁSZCSIPSSZEL</h4>
+                                <p class="card-text">A hajszálvékonyra szeletelt kolbászt forró serpenyőben ropogósra sütjük. Kolbászzsíron megfonnyasztjuk az apróra vágott vöröshagymát, majd megszórjuk és elkeverjük a pirospaprikával. Feldarabolt paprikát és paradicsomot adunk hozzá. Megsózzuk, megborsozzuk
+                                ízlés szerint. A frissen elkészült lecsót a ropogós kolbászcsipsszel megszórva tálaljuk, friss kenyeret és főtt rizst kínálunk mellé.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="kepek/etlap3.jpg" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">BÖGRÉBEN SÜLT PARADICSOMOS TÉSZTA</h4>
-                        <p class="card-text">A tésztát kifőzzük, leszűrjük, és olívaolajjal összekeverjük. Egy bögrébe pizzaszószt kanalazunk, megszórjuk felkockázott mozzarellával, felaprított bazsalikommal, majd ismét paradicsomszószt és mozzarellát teszünk rá. A kifőtt tésztával körberakjuk az
-                        edényünket, meglocsoljuk paradicsomszósszal, majd sütőbe rakjuk. A kisült a tésztát tányérra borítjuk és forrón tálaljuk.</p>
+                <div  class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="kepek/etlap3.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">BÖGRÉBEN SÜLT PARADICSOMOS TÉSZTA</h4>
+                                <p class="card-text">A tésztát kifőzzük, leszűrjük, és olívaolajjal összekeverjük. Egy bögrébe pizzaszószt kanalazunk, megszórjuk felkockázott mozzarellával, felaprított bazsalikommal, majd ismét paradicsomszószt és mozzarellát teszünk rá. A kifőtt tésztával körberakjuk az
+                                edényünket, meglocsoljuk paradicsomszósszal, majd sütőbe rakjuk. A kisült a tésztát tányérra borítjuk és forrón tálaljuk.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="kepek/etlap4.jpg" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">TORTELLINIS PARADICSOMLEVES</h4>
-                        <p class="card-text">Lábasban olívaolajon megfonnyasztjuk a kétféle felpirított hagymát, és babérleveleket adunk hozzá. A hagymás keverékbe forgatjuk a darabolt paradicsomot, lecsipkedett bazsalikom leveleket adunk hozzá, sózzuk, borsozzuk. A levest joghurttal dúsítjuk és
-                        tortellinivel gazdagítjuk. Melegen, egy kevés aprított bazsalikommal és leforgácsolt parmezánnal megszórva tálaljuk.</p>
+                <div  class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="kepek/etlap4.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">TORTELLINIS PARADICSOMLEVES</h4>
+                                <p class="card-text">Lábasban olívaolajon megfonnyasztjuk a kétféle felpirított hagymát, és babérleveleket adunk hozzá. A hagymás keverékbe forgatjuk a darabolt paradicsomot, lecsipkedett bazsalikom leveleket adunk hozzá, sózzuk, borsozzuk. A levest joghurttal dúsítjuk és
+                                tortellinivel gazdagítjuk. Melegen, egy kevés aprított bazsalikommal és leforgácsolt parmezánnal megszórva tálaljuk.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Web 9. feladat vége -->
