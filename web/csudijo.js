@@ -1,3 +1,4 @@
+// Web 12. feladat:
 // A csudijo.js fájlban hozzon létre olyan JavaScript kódot, ami a szervertől Ajax
 // kéréssel lekérdezi, hogy melyik étel volt a legnépszerűbb az elmúltévben,
 // és a válaszüzenetben kapott étel nevét betölti a legnepszerubb tagkijelölővel
@@ -32,3 +33,4 @@ function legnepszerubb() {
 
 // Egyszerűbb megoldás:
 legnepszerubb();
+// Web 12. feladat vége
