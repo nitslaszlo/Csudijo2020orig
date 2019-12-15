@@ -34,3 +34,19 @@ function legnepszerubb() {
 // Egyszerűbb megoldás:
 legnepszerubb();
 // Web 12. feladat vége
+
+// Web 13. feladat:
+function vendegkonyv() {
+    var xhttp = new XMLHttpRequest();
+    var bejegyzes = document.getElementById("bejegyzes");
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            bejegyzes.value = "";
+            alert("Köszönjük a bejegyzését!");
+        }
+    }
+    xhttp.open("POST", "/api/vendegkonyv");
+    xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify({ "bejegyzes": bejegyzes.value }));
+}
+// Web 13. feladat vége
