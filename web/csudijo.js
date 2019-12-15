@@ -8,8 +8,8 @@
 //     - Választípus: JSON
 //     - Válasz adat: {etelNev}
 // Amennyiben nem tudja elvégezni az adatlekérést a szerverről, 
-// a „LECSÓ KOLBÁSZCSIPSSZEL” szöveget töltse be a HTML oldal betöltődését
-// követően JavaScript kód segítségével a legnepszerubb tagkijelölővel rendelkező bekezdésbe.
+// a „LECSÓ KOLBÁSZCSIPSSZEL” szöveget töltse be a HTML oldal betöltődését követően
+// JavaScript kód segítségével a legnepszerubb tagkijelölővel rendelkező bekezdésbe.
 
 function legnepszerubb() {
     var xhttp = new XMLHttpRequest();
