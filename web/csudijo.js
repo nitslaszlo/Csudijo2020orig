@@ -23,6 +23,8 @@ function legnepszerubb() {
     xhttp.send();
 }
 
+
+
 // Központi megoldás:
 // window.onload = function() {
 //     legnepszerubb();
