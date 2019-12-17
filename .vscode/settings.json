@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "html.autoClosingTags": false,
+    "html.format.wrapLineLength": 0,
+    "spellright.language": [
+        "hu"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ],
+    "spellright.notificationClass": "information"
+}
